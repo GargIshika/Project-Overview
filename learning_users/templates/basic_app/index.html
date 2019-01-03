@@ -1,0 +1,46 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+
+<div class="container">
+  <div class="jumbotron">
+    <h1><font color="blue"> My First Project </font></h1>
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username }}!</h2>
+        <h1>WelCome to the technological world!</h1>
+        <br>
+        <p>Here you will get to see a list of "20 TECH WEBSITES AND BLOGS" : </p>
+     <div class="container">
+       <div class="jumbotron">
+        <li><a href="https://www.techcrunch.com/">TECHCRUNCH</a></li>
+        <li><a href="https://www.TheNextWeb.com">THENEXTWEB</a></li>
+        <li><a href="https://www.Wired.com">WIRED</a></li>
+        <li><a href="https://www.Tech2.com">TECH2</a></li>
+        <li><a href="https://www.Gizmodo.com">GIZMODO</a></li>
+        <li><a href="https://www.Mashable.com">MASHABLE</a></li>
+        <li><a href="https://www.TheVerge.com">THEVERGE</a></li>
+        <li><a href="https://www.DigitalTrends.com">DIGITALTRENDS</a></li>
+        <li><a href="https://www.TechRadar.com">TECHRADAR</a></li>
+        <li><a href="https://www.Technorati.com">TECHNORATI</a></li>
+        <li><a href="https://www.BusinessInsider.com">BUSINESSINSIDER</a></li>
+        <li><a href="https://www.Macrumors.com">MACRUMORS</a></li>
+        <li><a href="https://www.Venturebeat.com">VENTUREBEAT</a></li>
+        <li><a href="https://www.Blog.us.playstation.com">BLOGUSPLAYSTATION</a></li>
+        <li><a href="https://www.Gigaom.com">GIGAOM</a></li>
+        <li><a href="https://www.Engadget.com">ENGADGET</a></li>
+        <li><a href="https://www.Slashgear.com">SLASHGEAR</a></li>
+        <li><a href="https://www.Ubergizmo.com">UBERGIZMO</a></li>
+        <li><a href="https://www.Droid-life.com">DROID-LIFE</a></li>
+        <li><a href="https://www.Eurogamer.net">EUROGAMER</a></li>
+        </div>
+        </div>
+    {% else %}
+        <h2>Welcome to the site!</h2>
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+
+{% endblock %}
