@@ -1,4 +1,10 @@
-# project-overview
-In this project you will need to first register to access it and then u need to login with the registered username and password.
-Then you will be directed to a page or you will move to a technological world where you will find 20 different websites related to technology.
-These websites will be helpful in providing informtaion about technologies.
+# Project-Overview
+OBJECTIVE:-
+          To develop a small application by implementing the technologies learnt.
+TECHNOLOGIES USED:-
+          For Front End - HTML,CSS,BOOTSTRAP
+          For Back End - PYTHON,DJANGO
+ DESCRIPTION:-
+         This app consists of 2 pages: first is the register and other is the login page.Once you register you will move to the 
+         technological world i.e you will be directed to a page that contains links which will help to gain knowledge in every field 
+         whether it is the field related to softwares,new inventions,mobile technologies and many more.
